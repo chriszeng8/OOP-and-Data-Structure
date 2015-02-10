@@ -1,0 +1,61 @@
+Animal[] pets=new Animal[3];
+Only one type of object in an array
+
+===================== {} curly ==========================
+{} Curly bracket for assignment multiple values
+for assigning multiple values into an array:
+int[] array = {3, 4, 5};
+int[][] array = {{3, 4, 5}, {77, 50}};
+
+======================== array ==========================
+int[][]b=new int[2][3] /* row x col */
+Bigger array, smaller arrays with big array
+[ 0 1 2] [0 1 2 ]
+[[1,2,3],[4,5,6]]
+stacking one on top of other
+Elements in an array have to be of the same type
+
+================== Ragged/jagged array ==================
+Ragged arrays are arrays that have rows with difference length.
+In otherwise, they look jagged and cannot form a matrix.
+
+int[][] array = {{3, 4, 5}, {77, 50}};
+
+int[][]b=new int[2][]; /* don't know what size of each row is */
+b[0]={0,1,2};
+b[1]={2,2,2,2,2,2};
+
+Jagged or not, elements in an array still have to be of the same type.
+
+
+
+======================= Run time error ==================
+EXCEPTION ERRORS:
+NULL point exception error (typical)
+	Throwable -> Catchable error
+	/     \
+   /       \
+Errors & Exception
+
+	Error:
+(e.g)Harddrive failure
+
+	Exception:
+can be corrected.
+
+
+================== Try catch statement ==================
+try {
+	...
+} catch (Exception e)
+
+Exception e
+e is a variable that stores the type of exception
+
+To print out the type
+print (e.toString())
+
+============= Making copy of an array/object =============
+Make copy by copying all primitive type variables (int, string) 
+which means what we should loop through the array and 
+copy each element individually.
