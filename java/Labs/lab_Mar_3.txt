@@ -1,0 +1,101 @@
+Lecture
+
+1. Read about iterator
+@472 
+iterator
+
+2. Write BoundingBox 
+contains methods first (by the end of the weekend)
+
+3. 
+
+4. Suffix tree
+	a. In genomics
+	b. String matching
+
+Lab
+* Prelim
+True/False
+Be prepare to write code
+
+
+Binary search time
+
+Selection sort (n^2)
+
+Quick sort (n log n)
+
+		/** Sort b[h..k] */
+		void QS(int[] b, int h, int k) {
+		  if (b[h..k] size < 2)
+		     return;
+		  j= partition(b, h, k);
+		  // b[h..j-1] <= b[j] <= b[j+1..k]
+		  QS(h, j-1);
+		  QS(j+1, k)
+		}
+
+
+RuntimeException includes all kinds of exception during runtime (including Nullpointer).
+Sometime you want specific  
+
+
+Everything upto searching and sorting (Java)
+
+Basic:
+	Selection Sort
+	Insertion Sort
+	Binary Search
+
+Peudo code:
+	C
+
+
+Why is log_2 n?
+Keeping dividing into half?
+
+
+n: going through every element
+log n: dividing part 
+
+merge sort is bad for memory (quick call on stacks (only dealing with indices))
+quick sort is bad when choosing a bad pivot (minimum or maximum (not better than merge sort))
+
+
+Basic OOPs:
+	Declaration
+	Class
+	subclasses
+	Pass by reference  - pass by case
+	autoboxing / autowraping
+	evaluation
+	static
+	specific interface (CompareTo)
+	Equaltion
+	toString
+	Field, fieldClass
+		-?
+	Generics
+	Collection
+		-?
+	ArrayList (one of the most useful in Java)
+		-hit the end (expand by 1.5 times)
+		-using the insert, remove methods
+		-look up
+	Exception Handling
+	String (by creating substrings) called "splits" (Memorize the ones that are important)
+		-substring
+		-Upper, lowercase
+		-trim (cut off white spaces on the left and right)
+		-string literal?
+		-string.equal()
+		-string immutable (string builder: get around the immutability)
+	Recursion
+		-Recursion is guaranteed.
+	Linked List
+		-singly linked list: takes less memory
+		-sort a linked list is a mess
+		-pre-allocate
+
+	-mergesort or (quicksort?) is corrected in java recently.
+	-pre,post condition of quicksort

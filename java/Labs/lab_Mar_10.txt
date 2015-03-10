@@ -1,0 +1,51 @@
+1. enum:
+
+An enum type is a special data type that enables for a variable to be a set of predefined constants. 
+
+2. Collection and Map:
+	Java.Utility
+	Interface
+
+Collection
+
+Abstract Collection Method:
+* get size
+* isEmpty
+
+Abstract List:
+* add
+* remove
+
+	Singly linked list
+	Doubly linked list
+	Cyclily linked list
+
+Map:
+* like a dictionary
+
+
+Set<E>
+no duplicates can exist in a set
+insert 2, then insert 2 again. Only one 2 will exist.
+	- HashSet
+
+Abstract Data Types:
+bag: unsorted collection of
+
+
+# fancy way to convert an array to 
+List myList<>=array.asList();
+ArrayList<Integer> newL=new Array;
+
+
+# Search for x 
+public boolean containsX(Node root, in t x) {
+	if (root.val==x) return true;
+	
+	boolean isInLeft=containsX(root.left, x);
+	boolean isInLeft=containsX(root.right, x);
+
+	if(!isInLeft && !isInRight) return false;
+	return true;
+}
+
